@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Home from './pages/Home';
+import './fonts/bold.ttf';
 
 const router = createBrowserRouter([
   {

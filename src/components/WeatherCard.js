@@ -14,13 +14,13 @@ function WeatherCard({
         <div className="WeatherCard">
             <h2>{city}</h2>
             <p className="WeatherCard--type">{weatherType}</p>
-            <p className="WeatherCard--temp">{currTemp}&deg;</p>
+            <p className="WeatherCard--temp">{currTemp}&deg;F</p>
             <div className="WeatherCard--stats">
                 <div>
-                    <p>High: {highTemp}&deg;</p>
+                    <p>High: {highTemp}&deg;F</p>
                 </div>
                 <div>
-                    <p>Low: {lowTemp}&deg;</p>
+                    <p>Low: {lowTemp}&deg;F</p>
                 </div>
                 <div>
                     <p>Cloudiness: {cloudiness}%</p>
