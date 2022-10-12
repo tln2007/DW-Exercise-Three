@@ -13,8 +13,9 @@ function WeatherCard({
     return (
         <div className="WeatherCard">
             <h2>{city}</h2>
-            <p className="WeatherCard--type">{weatherType}</p>
             <p className="WeatherCard--temp">{currTemp}&deg;F</p>
+            <p className="WeatherCard--type">{weatherType}</p>
+           
             <div className="WeatherCard--stats">
                 <div>
                     <p>High: {highTemp}&deg;F</p>
