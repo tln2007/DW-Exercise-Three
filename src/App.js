@@ -5,7 +5,6 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Home from './pages/Home';
-import './fonts/bold.ttf';
 
 const router = createBrowserRouter([
   {
@@ -16,7 +15,7 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <RouterProvider router={router} />
     </div>
   );

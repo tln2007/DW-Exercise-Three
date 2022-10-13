@@ -1,4 +1,5 @@
 import React from 'react';
+import WeatherIcon from './WeatherIcon';
 
 function WeatherCard({ 
     city, 
@@ -14,8 +15,12 @@ function WeatherCard({
         <div className="WeatherCard">
             <h2>{city}</h2>
             <p className="WeatherCard--temp">{currTemp}&deg;F</p>
-            <p className="WeatherCard--type">{weatherType}</p>
-           
+            <div className='WeatherCard--weatherIcon'>
+                <p className="WeatherCard--type">{weatherType}</p>
+                <WeatherIcon weatherType={weatherType} />
+            </div>
+
+       
             <div className="WeatherCard--stats">
                 <div>
                     <p>High: {highTemp}&deg;F</p>
