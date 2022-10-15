@@ -1,10 +1,8 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;1,100&display=swap');*/
-.App {
-    min-height: 100vh;
-}
 
 .Weather--wrapper {
     margin: auto;
+    min-height: 110vh;
 }
 
 h1 {
